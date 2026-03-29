@@ -24,6 +24,7 @@ churn_project/
 ├── config.py           # Configuración centralizada
 ├── main.py             # Código principal del proyecto
 └── requirements.txt    # Librerías necesarias
+```
 
 ## Instalación y uso
 
