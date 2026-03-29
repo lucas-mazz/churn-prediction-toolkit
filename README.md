@@ -11,16 +11,19 @@ y optimizar la retención mediante el análisis de datos.
 
 ## Stack tecnológico
 
-Lenguaje: Python 3.10+
-Entorno virtual: venv
-Control de versiones: Git / GitHub
+- **Lenguaje:** Python 3.10+
+- **Entorno virtual:** venv
+- **Control de versiones:** Git / GitHub
 
 ## Arquitectura del proyecto
 
-/ churn-prediction-toolkit
-| - config.py                   # Configuración centralizada
-| - main.py                     # Punto de entrada del sistema
-| - .gitignore                  # Archivos excluidos del repositorio
+```text
+churn_project/
+├── data/               # Archivos CSV (ignorados en Git)
+├── .gitignore          # Archivos excluidos del repositorio
+├── config.py           # Configuración centralizada
+├── main.py             # Código principal del proyecto
+└── requirements.txt    # Librerías necesarias
 
 ## Instalación y uso
 
